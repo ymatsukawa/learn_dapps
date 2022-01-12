@@ -13,4 +13,4 @@ two are different when hashed.
 
 | bird.png | bird_other.png |
 | -- | -- |
-| ![bird](./hashing/bird.png) | ![bird_other](bird_other.png) |
+| ![bird](./hashing/bird.png) | ![bird_other](./hashing/bird_other.png) |
