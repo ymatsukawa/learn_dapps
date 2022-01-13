@@ -32,10 +32,3 @@ class Blockchain(object):
 
     def last_block(self):
         return self.chain[-1] if self.chain else None
-
-    def new_transaction(self, sender, recipent, amount):
-        self.pending_transactions.append({
-            "sender": sender,
-            "recipent": recipent,
-            "amount": amount
-        })
